@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 *{
+  font-family: 'Press Start 2P';
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,6 +9,8 @@
 .container{
   background-color: yellowgreen;
   height:100vh ;
+  width: 60vw;
+  margin-left: 20rem;
 }
 .page-title{
   display: flex;
@@ -15,36 +20,38 @@
 }
 .logo{
   display: flex;
-  border: 2px solid black;
-  gap: 2rem;
+  /* border: 2px solid black; */
+  gap: 3px;
 }
 .copyright{
-  border: 2px solid white;
+  /* border: 2px solid white; */
   padding: 2px;
-  font-weight: bold;
+  font-size: 1rem;
+
 }
 .author-name{
   color: blue;
-  border: 2px solid white;
+  /* border: 2px solid white; */
   padding: 2px;
-  font-weight: bold;
   text-transform: capitalize;
 }
 .results{
   display: flex;
-  border: 2px solid black;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid black; */
   gap: 2rem;
   margin-right: 1.5rem;
 }
 .comp{
-  border: 2px solid green;
+  /* border: 2px solid green; */
  display: flex;
 justify-content: space-between;
  font-size: 1.5rem;
 
 }
 .person{
-  border: 2px solid green;
+  /* border: 2px solid green; */
  display: flex;
  justify-content: space-between;
  font-size: 1.5rem;
@@ -55,33 +62,35 @@ justify-content: space-between;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 2rem;
-  border: 2px solid black;
+  margin-top: 1.5rem;
+  /* border: 2px solid black; */
 }
 .name{
   color: black;
   font-size: 1.5rem;
   text-transform: capitalize;
   margin-bottom: 1.5px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .emoji{
   border: 3px dotted black;
-  width: 5rem;
- height: 5rem;
+  width: 8rem;
+ height: 8rem;
  display: flex;
  justify-content: center;
  align-items: center;
- margin: 1rem;
+ /* margin: 1rem; */
 }
 .emoji-img{
   font-size: 4rem;
 }
 .announcement{
-  margin-top: 3rem;
-  width: 100vw;
-  height: 5rem;
-  border: 2px solid red;
+  margin-top: 3.7rem;
+  /* width: 100vw; */
+  text-transform: capitalize;
+  height: 4rem;
+  background-color: rgb(242, 194, 68);
+  /* border: 2px solid red; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -96,13 +105,14 @@ justify-content: space-between;
   align-items: center;
   justify-content: center;
   margin-top: 2rem;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 .human_choices{
-  border: 2px solid black;
+  /* border: 2px solid black; */
   display: flex;
   justify-content: center;
   gap: 2rem;
+  margin-top: 2rem;
 }
 .card{
   /* width: 6rem; */
@@ -113,11 +123,6 @@ justify-content: space-between;
  
 
 }
-
-/* .emoji_chose{
-border: 2px solid red;
-
-} */
 .button-choose{
   width: 7rem;
   height: 6rem;
