@@ -149,7 +149,7 @@ justify-content: space-between;
     font-size: 1rem;
   }
 }
-@media screen and (max-width:900px) and (min-width:601px){
+@media screen and (max-width:1024px) and (min-width:601px){
   .logo{
     display: flex;
     
