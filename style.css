@@ -149,3 +149,27 @@ justify-content: space-between;
     font-size: 1rem;
   }
 }
+@media screen and (max-width:900px) and (min-width:601px){
+  .logo{
+    display: flex;
+    
+  }
+  .button-choose{
+    font-size: 3rem;
+
+  }
+  .button-choose p{
+    font-size: 1rem;
+  }
+  .container{
+  min-width: 100vw;
+  margin: 0;
+  }
+  .results{
+    font-size: 1rem;
+    flex-direction: column;
+  }
+  .text-result{
+    font-size: 1rem;
+  }
+}
