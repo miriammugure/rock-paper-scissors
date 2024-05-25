@@ -167,7 +167,7 @@ justify-content: space-between;
   }
   .results{
     font-size: 1rem;
-    flex-direction: column;
+    /* flex-direction: column; */
   }
   .text-result{
     font-size: 1rem;
